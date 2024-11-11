@@ -1,0 +1,110 @@
+ body {
+    color: rgb(233, 218, 241);
+    background: rgb(71, 0, 112);
+    margin: 15px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 100px;
+ }
+
+ header {
+    border: solid 1px rgb(215, 173, 231);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(223, 196, 231);
+}
+
+.chamada {
+   background: rgb(36, 9, 43);
+   padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+ h1{
+    font-size:40px;
+ }
+
+ p {
+   font-size:20px;
+ }
+
+.categoria-series {
+   display: flex;
+   overflow-x: auto;
+   gap: 10px;
+}
+
+.categorias{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.categoria-series img {
+   opacity: 0.5;
+   height: 200px;
+}
+
+.categoria-series img:hover {
+   opacity: 1.0;
+   border: 1px solid rgb(220, 45, 255);
+}
+
+.categorias h2 {
+   color: rgb(223, 196, 231);
+   font-size: 25px;
+}
+
+.categoria-filmes {
+   display: flex;
+   overflow-x: auto;
+   gap: 10px;
+}
+
+.categoriaf{
+   padding-left: 20px;
+   padding-right: 20px;
+}  
+.categoria-filmes img {
+   opacity: 0.5;
+   height: 200px;
+}
+
+.categoria-filmes img:hover {
+   opacity: 1.0;
+   border: 1px solid rgb(220, 45, 255);
+}
+
+.categoriaf h3 {
+   color: rgb(223, 196, 231);
+   font-size: 25px;
+}
+
+.categoria-seijinho {
+   display: flex;
+   overflow-x: auto;
+   gap: 10px;
+}
+
+.categoriay{
+   padding-left: 20px;
+   padding-right: 20px;
+}  
+.categoria-seijinho img {
+   opacity: 0.5;
+   height: 200px;
+}
+
+.categoria-seijinho img:hover {
+   opacity: 1.0;
+   border: 1px solid rgb(220, 45, 255);
+}
+
+.categoriay h4 {
+   color: rgb(223, 196, 231);
+   font-size: 25px;
+}
